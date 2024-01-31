@@ -1,13 +1,27 @@
 {
-  "name": "nodejs-app",
+  "name": "onshop",
   "version": "1.0.0",
-  "description": "A minimal Node.js web application.",
-  "main": "index.js",
-  "author": "alphasec",
-  "license": "MIT",
-   "dependencies": {
-  },
+  "description": "Online Shopping Webapp",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "server": "node server.js;",
+    "client": "(cd client && npm run dev);",
+    "build": "(cd client && npm run build);"
+  },
+  "keywords": [
+    "online",
+    "shopping"
+  ],
+  "author": "Natnael",
+  "license": "ISC",
+  "devDependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/hapi": "^21.3.3",
+    "@hapi/inert": "^7.1.0",
+    "bcrypt": "^5.1.1",
+    "joi": "^17.12.1",
+    "mysql2": "^3.9.1",
+    "path": "^0.12.7",
+    "qs": "^6.11.2"
   }
 }
