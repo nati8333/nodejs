@@ -21,10 +21,10 @@ config.server = {
 };
 
 config.mysql = {
-    user: 'onshop_admin',
-    password:'OnShop_Admin_Password@4123',
-    database: 'onshop_db', 
-    host:'localhost',
+    user: 'root',
+    password:'4Ec2h-2DDdFG3C3GE6EdBb62-ehBG-42',
+    database: 'railway', 
+    host:'root:4Ec2h-2DDdFG3C3GE6EdBb62-ehBG-42@mysql.railway.internal',
     port: 3306,
 };
 
